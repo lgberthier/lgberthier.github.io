@@ -1,0 +1,72 @@
+$color1: #ced7d8;
+$color2: #316879;
+$color3: #ec7054;
+$color4: #6b6b6b;
+
+ion-icon {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0 5px;
+  transition: color 0.2s; 
+  color: $color2;
+  border-radius: 20px;
+  margin-top: 250px;
+  align-content: right;
+  
+}
+
+ion-icon:hover {
+  color: $color4;
+}
+
+
+body {
+  background-color: $color1;
+}
+
+h1 {
+  margin-top: 200px;
+  text-align: center;
+  color: $color2;
+  font-size: 50px;
+}
+
+img {
+  width: 180px;
+  border-radius: 90px;
+  margin-left: 100px;
+  margin-right: 10px;
+  float: left;
+}
+
+p {
+  text-align: center;
+  color: $color3;
+  font-size: 25px;
+  margin-left: 300px;
+  font:bold
+}
+
+#navigation_bar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+
+#bar_items {
+  list-style-type: none;
+  text-align: center;
+  color: $color2;
+  padding: 14px 16px;
+  font-size: 20px;
+  display: inline;
+}
+
+/* Change the link color on hover */
+#bar_items :hover {
+  text-decoration: none;
+  color: $color4;
+}
