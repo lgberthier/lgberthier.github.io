@@ -1,0 +1,39 @@
+body {
+  background-color: #ced7d8;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  border-style: ridge;
+  border-color: #316879;
+  text-align: center;
+  font-size: 25px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ec7054;
+}
+
+#icons {
+  text-decoration: none;
+  margin-left: 75px;
+  font-size: 30px;
+  margin: 0 5px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-align: center;
+}
+
+#icons :hover {
+  color: #6b6b6b;
+}
+
+ion-icon {
+  font-size: 40px;
+  color: #316879;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=about_me.css.map */

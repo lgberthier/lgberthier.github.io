@@ -1,0 +1,42 @@
+$color1: #ced7d8;
+$color2: #316879;
+$color3: #ec7054;
+$color4: #6b6b6b;
+  
+body {
+background-color: $color1;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  border-style: ridge;
+  border-color: $color2;
+  text-align: center;
+  font-size: 25px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: $color3;
+}
+
+#icons {
+  text-decoration: none;
+  margin-left: 75px;
+  font-size: 30px;
+  margin: 0 5px;
+  transition: color 0.2s;
+  text-align: center;  
+}
+
+#icons :hover {
+  color: $color4;
+}
+
+ion-icon {
+  font-size: 40px;
+  color: $color2;
+  border-radius: 20px;
+}
