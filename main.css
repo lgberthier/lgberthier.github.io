@@ -25,6 +25,7 @@ h1 {
   text-align: center;
   color: #316879;
   font-size: 50px;
+  font-family: "Georgia", Times, serif;
 }
 
 img {
@@ -40,7 +41,7 @@ p {
   color: #ec7054;
   font-size: 25px;
   margin-left: 300px;
-  font: bold;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
 #navigation_bar {
