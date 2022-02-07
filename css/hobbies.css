@@ -11,6 +11,7 @@ ion-icon {
 h1 {
   text-align: center;
   color: #ec7054;
+  font-family: "Georgia", Times, serif;
 }
 
 img {
@@ -49,11 +50,13 @@ img {
   text-align: center;
   color: #ec7054;
   font-size: 22px;
+  font-family: "Georgia", Times, serif;
 }
 
 p {
   color: #ec7054;
   font-size: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
 #icons {
