@@ -16,6 +16,7 @@ ion-icon {
 h1 {
   text-align: center;
   color: $color3;
+  font-family: "Georgia", Times, serif;
 }
 img {
   width: 125px;
@@ -39,15 +40,18 @@ img {
   height: 400px;
   border-radius: 15px;
   margin-bottom: 150px;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 .main_paragraph {
   text-align: center;
   color: $color3;
   font-size: 22px;
+  font-family: "Georgia", Times, serif;
 }
 p {
   color: $color3;
   font-size: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
 #icons {
