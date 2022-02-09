@@ -2,9 +2,9 @@ $color1: #ced7d8;
 $color2: #316879;
 $color3: #ec7054;
 $color4: #6b6b6b;
-  
+
 body {
-background-color: $color1;
+  background-color: $color1;
 }
 
 #border {
@@ -16,7 +16,8 @@ background-color: $color1;
 }
 
 img {
-  width: 400px;
+  width: 900px;
+  height: 450px;
 }
 
 #p1 {
@@ -27,7 +28,7 @@ img {
 }
 
 #p2 {
-text-align: center;
+  text-align: center;
 }
 
 #p3 {
@@ -43,7 +44,7 @@ text-align: center;
   font-size: 30px;
   margin: 0 5px;
   transition: color 0.2s;
-  text-align: center;  
+  text-align: center;
 }
 
 #icons :hover {
