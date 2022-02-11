@@ -11,23 +11,28 @@ body {
 }
 
 img {
-  width: 600px;
+  width: 350px;
 }
 
-#p1 {
+h1 {
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   color: #ec7054;
   font-family: "Georgia", Times, serif;
 }
 
-#p2 {
+#p1 {
   text-align: center;
 }
 
-#p3 {
+#p2 {
   text-align: center;
-  font-size: 20px;
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 1.2;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 25px;
   color: #ec7054;
   font-family: "Arial", Helvetica, sans-serif;
 }
