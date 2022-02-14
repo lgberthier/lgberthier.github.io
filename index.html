@@ -2,50 +2,92 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Personal Website" />
+    <meta name="author" content="Luciano Gustavo Berthier" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luciano Gustavo Berthier</title>
     <link rel="icon" type="image/x-icon" href="/snowflake.ico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="normalize.css" /> 
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- The ionicon link, my icons' library of choice.-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5718e4890d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <!-- A h1 with my full name.-->
-    <h1>Luciano Gustavo Berthier</h1>
+    <div class="hero-image">
+      <div>
+        <button
+          type="button"
+          class="dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fas fa-bars fa-2x"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="resume.html">Resume</a></li>
+          <li>
+            <a class="dropdown-item" href="hobbies.html">Hobbies</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="about_me.html">About Me</a>
+          </li>
+          <li><hr class="dropdown-divider" /></li>
+          <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="hero-text">
+        <!-- A h1 with my full name.-->
+        <h1>Luciano Gustavo Berthier</h1>
 
-    <!-- Here the horizontal navigation bar.-->
-    <ul id="navigation_bar">
-      <li id="bar_items"><a href="resume.html">Resume</a></li>
-      <li id="bar_items"><a href="hobbies.html">Hobbies</a></li>
-      <li id="bar_items"><a href="about_me.html">About Me</a></li>
-    </ul>
+        <!-- A paragraph.-->
+        <p>
+          Hi there, this is Gustavo, I'm easy going and looking for a
+          challenge.<br />
+          This website is my first project, it's a work in progress ;)
+        </p>
 
-    <!-- Here my photo.-->
-    <img src="me2.jpg" alt="Photo" id="main_image" />
-
-    <!-- A paragraph with a small biography.-->
-    <p>Hi there, this is Gustavo, I'm easy going and looking for a challenge.</br> This website is my first project, it's a work in progress 	&#128517</p>
-
-    <!-- Here links to social media.-->
-    <a href="https://github.com/lgberthier" target="_blank"
-      ><ion-icon name="logo-github"></ion-icon
-    ></a>
-    <a href="https://www.linkedin.com/in/luciano-gustavo-berthier-b70090210/" target="_blank"
-      ><ion-icon name="logo-linkedin"></ion-icon
-    ></a>
-    <a href="https://www.facebook.com/gustavo.berthier.1/" target="_blank"
-      ><ion-icon name="logo-facebook"></ion-icon
-    ></a>
-    <a href="https://www.instagram.com/gustavoberthier/" target="_blank"
-      ><ion-icon name="logo-instagram"></ion-icon
-    ></a>
-    <a href="https://twitter.com/lgb2721" target="_blank"
-      ><ion-icon name="logo-twitter"></ion-icon
-    ></a>
-    <a href="contact.html"><ion-icon name="mail-outline"></ion-icon></a>
+        <!-- Here links to social media.-->
+        <a href="https://github.com/lgberthier" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/luciano-gustavo-berthier-b70090210/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="https://www.facebook.com/gustavo.berthier.1/" target="_blank"
+          ><ion-icon name="logo-facebook"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/gustavoberthier/" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a href="https://twitter.com/lgb2721" target="_blank"
+          ><ion-icon name="logo-twitter"></ion-icon
+        ></a>
+      </div>
+    </div>
   </body>
 </html>
