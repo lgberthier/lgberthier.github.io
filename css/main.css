@@ -5,7 +5,7 @@ ion-icon {
   margin: 0 5px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  color: #316879;
+  color: #ced7d8;
   border-radius: 20px;
   margin-top: 250px;
   -ms-flex-line-pack: right;
@@ -13,57 +13,89 @@ ion-icon {
 }
 
 ion-icon:hover {
-  color: #6b6b6b;
+  color: #ec7054;
+  font-size: 40px;
 }
 
-body {
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.hero-image {
+  background-image: url("bc.jpg");
+  /* The image used */
   background-color: #ced7d8;
+  /* Used if the image is unavailable */
+  height: 100%;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 h1 {
-  margin-top: 200px;
   text-align: center;
-  color: #316879;
+  color: #6b6b6b;
   font-size: 50px;
   font-family: "Georgia", Times, serif;
-}
-
-img {
-  width: 180px;
-  border-radius: 90px;
-  margin-left: 100px;
-  margin-right: 10px;
-  float: left;
+  text-shadow: 2px 2px 4px #6b6b6b;
+  margin-top: 180px;
+  margin-bottom: 80px;
 }
 
 p {
   text-align: center;
   color: #ec7054;
-  font-size: 25px;
-  margin-left: 300px;
+  font-size: 30px;
   font-family: "Arial", Helvetica, sans-serif;
+  width: 1000px;
 }
 
-#navigation_bar {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  text-align: center;
-  text-decoration: none;
-}
-
-#bar_items {
-  list-style-type: none;
-  text-align: center;
-  color: #316879;
-  padding: 14px 16px;
-  font-size: 20px;
-  display: inline;
-}
-
-/* Change the link color on hover */
-#bar_items :hover {
-  text-decoration: none;
+/* Menu icon */
+.dropdown-toggle {
+  background-color: #ced7d8;
+  border: none;
   color: #6b6b6b;
+  font-size: medium;
+}
+
+/* Eliminates arrow on icon */
+.dropdown-toggle::after {
+  content: none;
+}
+
+/* dropdown background */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ced7d8;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-item {
+  float: none;
+  color: #6b6b6b;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: small;
+  font-family: "Arial", Helvetica, sans-serif;
+  border-radius: 20px;
 }
 /*# sourceMappingURL=main.css.map */
