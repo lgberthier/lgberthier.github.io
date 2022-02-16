@@ -145,6 +145,7 @@ ion-icon:hover {
   }
   .backup {
     display: block;
+    text-align: center;
     font-size: 25px;
     color: #6b6b6b;
     margin-top: 15px;
@@ -152,8 +153,15 @@ ion-icon:hover {
   }
   .backup_p {
     display: block;
+    text-align: center;
     font-size: 21px;
     color: #ec7054;
+  }
+  .menu {
+    text-decoration: none;
+    text-align: center;
+    color: #316879;
+    margin-top: 150px;
   }
 }
 
