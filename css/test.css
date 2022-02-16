@@ -113,18 +113,20 @@ ion-icon:hover {
     background-image: none;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #6b6b6b), color-stop(70%, #ced7d8));
     background: linear-gradient(to top, #6b6b6b 30%, #ced7d8 70%);
+    background-size: cover;
   }
   h1 {
-    font-size: 16px;
+    font-size: 20px;
   }
   p {
-    font-size: 13px;
+    font-size: 17px;
   }
   ion-icon {
-    font-size: 14px;
+    font-size: 18px;
     color: #ced7d8;
   }
   ion-icon:hover {
+    font-size: 18px;
     color: #ec7054;
   }
 }
@@ -142,6 +144,7 @@ ion-icon:hover {
     color: #ced7d8;
   }
   ion-icon:hover {
+    font-size: 19px;
     color: #ec7054;
   }
 }
@@ -159,6 +162,7 @@ ion-icon:hover {
     color: #ced7d8;
   }
   ion-icon:hover {
+    font-size: 21px;
     color: #ec7054;
   }
 }
@@ -176,6 +180,7 @@ ion-icon:hover {
     color: #ced7d8;
   }
   ion-icon:hover {
+    font-size: 33px;
     color: #ec7054;
   }
 }
@@ -193,6 +198,7 @@ ion-icon:hover {
     color: #ced7d8;
   }
   ion-icon:hover {
+    font-size: 39px;
     color: #ec7054;
   }
 }
