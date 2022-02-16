@@ -6,8 +6,8 @@ $color4: #6b6b6b;
 /* Dropdown Button */
 .dropbtn {
   color: $color2;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: none;
   background-color: $color1;
 }
@@ -95,17 +95,6 @@ border-radius: 10px;}
     display: none;
   }
 
-  .menu {
-    text-decoration: none;
-    text-align: center;
-    color: $color2;
-    margin-top: 150px;
-  }
-
-  .menu :hover {
-    color: $color3;
-  }
-  
 
   ion-icon {
     list-style-type: none;
@@ -117,7 +106,6 @@ border-radius: 10px;}
     border-radius: 20px;
     margin-top: 250px;
     align-content: right;
-    
   }
   
   ion-icon:hover {
@@ -128,7 +116,24 @@ border-radius: 10px;}
    /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) { 
   .hero-image {
-   display: none;
+    background-image: none;
+    h1{
+      display: none;
+    }
+    p {
+      display: none;
+    }
+    ion-icon {
+      list-style-type: none;
+      text-decoration: none;
+      font-size: 40px;
+      margin: 0 5px;
+      transition: color 0.2s; 
+      color: $color4;
+      border-radius: 20px;
+      margin-top: 300px;
+      align-content: right;
+    }
   }
   body {
     background-color: $color1;
@@ -146,12 +151,6 @@ border-radius: 10px;}
     text-align: center;
     font-size: 21px;
     color: $color3;
-  }
-  .menu {
-    text-decoration: none;
-    text-align: center;
-    color: $color2;
-    margin-top: 150px;
   }
 }
 

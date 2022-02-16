@@ -1,8 +1,8 @@
 /* Dropdown Button */
 .dropbtn {
   color: #316879;
-  padding: 16px;
-  font-size: 16px;
+  padding: 20px;
+  font-size: 20px;
   border: none;
   background-color: #ced7d8;
 }
@@ -104,17 +104,6 @@ p {
   display: none;
 }
 
-.menu {
-  text-decoration: none;
-  text-align: center;
-  color: #316879;
-  margin-top: 150px;
-}
-
-.menu :hover {
-  color: #ec7054;
-}
-
 ion-icon {
   list-style-type: none;
   text-decoration: none;
@@ -137,7 +126,26 @@ ion-icon:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero-image {
+    background-image: none;
+  }
+  .hero-image h1 {
     display: none;
+  }
+  .hero-image p {
+    display: none;
+  }
+  .hero-image ion-icon {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 5px;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    color: #6b6b6b;
+    border-radius: 20px;
+    margin-top: 300px;
+    -ms-flex-line-pack: right;
+        align-content: right;
   }
   body {
     background-color: #ced7d8;
@@ -155,12 +163,6 @@ ion-icon:hover {
     text-align: center;
     font-size: 21px;
     color: #ec7054;
-  }
-  .menu {
-    text-decoration: none;
-    text-align: center;
-    color: #316879;
-    margin-top: 150px;
   }
 }
 
