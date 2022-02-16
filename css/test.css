@@ -138,18 +138,10 @@ ion-icon:hover {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero-image {
-    background-image: none;
+    display: none;
+  }
+  body {
     background-color: #ced7d8;
-    width: 100%;
-  }
-  .dropbtn {
-    display: none;
-  }
-  h1 {
-    display: none;
-  }
-  p {
-    display: none;
   }
   .backup {
     display: block;
@@ -162,9 +154,6 @@ ion-icon:hover {
     display: block;
     font-size: 21px;
     color: #ec7054;
-  }
-  ion-icon {
-    display: none;
   }
 }
 
@@ -209,7 +198,7 @@ ion-icon:hover {
     font-size: 35px;
   }
   p {
-    font-size: 18px;
+    font-size: 30px;
   }
   .contact_icon {
     display: none;
@@ -222,10 +211,10 @@ ion-icon:hover {
     display: none;
   }
   h1 {
-    font-size: 41px;
+    font-size: 40px;
   }
   p {
-    font-size: 21px;
+    font-size: 35px;
   }
   .contact_icon {
     display: none;
