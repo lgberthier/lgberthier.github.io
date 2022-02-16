@@ -106,12 +106,11 @@ p {
 
 #icons {
   text-decoration: none;
-  margin-left: 75px;
-  font-size: 30px;
+  font-size: 40px;
   margin: 0 5px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  text-align: center;
+  text-align: left;
   color: #316879;
   position: relative;
   margin-top: 500px;
