@@ -96,6 +96,11 @@ p {
   display: none;
 }
 
+.menu {
+  text-decoration: none;
+  color: #316879;
+}
+
 ion-icon {
   list-style-type: none;
   text-decoration: none;
@@ -115,13 +120,20 @@ ion-icon:hover {
   font-size: 40px;
 }
 
+.contact_icon {
+  font-size: 18px;
+  color: #ced7d8;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero-image {
     background-image: none;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #6b6b6b), color-stop(70%, #ced7d8));
     background: linear-gradient(to top, #6b6b6b 30%, #ced7d8 70%);
-    background-size: cover;
+  }
+  .dropbtn {
+    display: none;
   }
   h1 {
     display: none;
@@ -133,15 +145,18 @@ ion-icon:hover {
     display: block;
     font-size: 20px;
     color: #6b6b6b;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .backup_p {
     display: block;
-    font-size: 20px;
+    font-size: 17px;
     color: #ec7054;
   }
   ion-icon {
     font-size: 18px;
     color: #ced7d8;
+    margin-top: 30px;
   }
   ion-icon:hover {
     font-size: 18px;
@@ -151,6 +166,9 @@ ion-icon:hover {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) {
+  .menu {
+    display: none;
+  }
   h1 {
     font-size: 21px;
   }
@@ -165,10 +183,16 @@ ion-icon:hover {
     font-size: 19px;
     color: #ec7054;
   }
+  .contact_icon {
+    display: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
   h1 {
     font-size: 23px;
   }
@@ -183,10 +207,16 @@ ion-icon:hover {
     font-size: 21px;
     color: #ec7054;
   }
+  .contact_icon {
+    display: none;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .menu {
+    display: none;
+  }
   h1 {
     font-size: 35px;
   }
@@ -201,10 +231,16 @@ ion-icon:hover {
     font-size: 33px;
     color: #ec7054;
   }
+  .contact_icon {
+    display: none;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .menu {
+    display: none;
+  }
   h1 {
     font-size: 41px;
   }
@@ -218,6 +254,9 @@ ion-icon:hover {
   ion-icon:hover {
     font-size: 39px;
     color: #ec7054;
+  }
+  .contact_icon {
+    display: none;
   }
 }
 
