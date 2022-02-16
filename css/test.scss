@@ -96,21 +96,21 @@ border-radius: 10px;}
   }
 
 
-  ion-icon {
-    list-style-type: none;
+  #icons {
     text-decoration: none;
-    font-size: 40px;
+    margin-left: 75px;
+    font-size: 30px;
     margin: 0 5px;
-    transition: color 0.2s; 
-    color: $color1;
-    border-radius: 20px;
-    margin-top: 250px;
-    align-content: right;
+    transition: color 0.2s;
+    text-align: center;
+    color: $color2;
+    position: relative;
+    margin-top: 500px;
+    margin-bottom: 0px;
   }
   
-  ion-icon:hover {
+  #icons :hover {
     color: $color3;
-    font-size: 40px;
   }
 
    /* Extra small devices (phones, 600px and down) */
@@ -122,17 +122,6 @@ border-radius: 10px;}
     }
     p {
       display: none;
-    }
-    ion-icon {
-      list-style-type: none;
-      text-decoration: none;
-      font-size: 40px;
-      margin: 0 5px;
-      transition: color 0.2s; 
-      color: $color4;
-      border-radius: 20px;
-      margin-top: 300px;
-      align-content: right;
     }
   }
   body {
@@ -151,6 +140,7 @@ border-radius: 10px;}
     text-align: center;
     font-size: 21px;
     color: $color3;
+    margin-bottom: 50px;
   }
 }
 

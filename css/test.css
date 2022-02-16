@@ -104,23 +104,22 @@ p {
   display: none;
 }
 
-ion-icon {
-  list-style-type: none;
+#icons {
   text-decoration: none;
-  font-size: 40px;
+  margin-left: 75px;
+  font-size: 30px;
   margin: 0 5px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  color: #ced7d8;
-  border-radius: 20px;
-  margin-top: 250px;
-  -ms-flex-line-pack: right;
-      align-content: right;
+  text-align: center;
+  color: #316879;
+  position: relative;
+  margin-top: 500px;
+  margin-bottom: 0px;
 }
 
-ion-icon:hover {
+#icons :hover {
   color: #ec7054;
-  font-size: 40px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -133,19 +132,6 @@ ion-icon:hover {
   }
   .hero-image p {
     display: none;
-  }
-  .hero-image ion-icon {
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 40px;
-    margin: 0 5px;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
-    color: #6b6b6b;
-    border-radius: 20px;
-    margin-top: 300px;
-    -ms-flex-line-pack: right;
-        align-content: right;
   }
   body {
     background-color: #ced7d8;
@@ -163,6 +149,7 @@ ion-icon:hover {
     text-align: center;
     font-size: 21px;
     color: #ec7054;
+    margin-bottom: 50px;
   }
 }
 
