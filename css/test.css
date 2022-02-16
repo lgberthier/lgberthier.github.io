@@ -98,7 +98,12 @@ p {
 
 .menu {
   text-decoration: none;
+  text-align: center;
   color: #316879;
+}
+
+.menu :hover {
+  color: #ec7054;
 }
 
 ion-icon {
@@ -120,17 +125,13 @@ ion-icon:hover {
   font-size: 40px;
 }
 
-.contact_icon {
-  font-size: 18px;
-  color: #ced7d8;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero-image {
     background-image: none;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #6b6b6b), color-stop(70%, #ced7d8));
     background: linear-gradient(to top, #6b6b6b 30%, #ced7d8 70%);
+    background-size: cover;
   }
   .dropbtn {
     display: none;
@@ -143,23 +144,14 @@ ion-icon:hover {
   }
   .backup {
     display: block;
-    font-size: 20px;
+    font-size: 25px;
     color: #6b6b6b;
     margin-top: 30px;
     margin-bottom: 30px;
   }
   .backup_p {
     display: block;
-    font-size: 17px;
-    color: #ec7054;
-  }
-  ion-icon {
-    font-size: 18px;
-    color: #ced7d8;
-    margin-top: 30px;
-  }
-  ion-icon:hover {
-    font-size: 18px;
+    font-size: 21px;
     color: #ec7054;
   }
 }
@@ -170,18 +162,10 @@ ion-icon:hover {
     display: none;
   }
   h1 {
-    font-size: 21px;
+    font-size: 30px;
   }
   p {
-    font-size: 16px;
-  }
-  ion-icon {
-    font-size: 19px;
-    color: #ced7d8;
-  }
-  ion-icon:hover {
-    font-size: 19px;
-    color: #ec7054;
+    font-size: 25px;
   }
   .contact_icon {
     display: none;
@@ -194,18 +178,10 @@ ion-icon:hover {
     display: none;
   }
   h1 {
-    font-size: 23px;
+    font-size: 35px;
   }
   p {
-    font-size: 18px;
-  }
-  ion-icon {
-    font-size: 21px;
-    color: #ced7d8;
-  }
-  ion-icon:hover {
-    font-size: 21px;
-    color: #ec7054;
+    font-size: 30px;
   }
   .contact_icon {
     display: none;
@@ -223,14 +199,6 @@ ion-icon:hover {
   p {
     font-size: 18px;
   }
-  ion-icon {
-    font-size: 33px;
-    color: #ced7d8;
-  }
-  ion-icon:hover {
-    font-size: 33px;
-    color: #ec7054;
-  }
   .contact_icon {
     display: none;
   }
@@ -246,14 +214,6 @@ ion-icon:hover {
   }
   p {
     font-size: 21px;
-  }
-  ion-icon {
-    font-size: 39px;
-    color: #ced7d8;
-  }
-  ion-icon:hover {
-    font-size: 39px;
-    color: #ec7054;
   }
   .contact_icon {
     display: none;
