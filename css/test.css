@@ -52,7 +52,7 @@
   background-image: url("bc.jpg");
   /* The image used */
   width: 100%;
-  height: 900px;
+  height: 800px;
   /* You must set a specified height */
   background-position: center;
   /* Center the image */
@@ -110,10 +110,8 @@ p {
   margin: 0 5px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
-  text-align: left;
-  color: #316879;
+  text-align: center;
   position: relative;
-  margin-top: 500px;
   margin-bottom: 0px;
 }
 
@@ -150,6 +148,10 @@ p {
     color: #ec7054;
     margin-bottom: 50px;
   }
+  #icons {
+    color: #316879;
+    margin-top: 430px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -161,10 +163,11 @@ p {
     font-size: 30px;
   }
   p {
-    font-size: 25px;
+    font-size: 20px;
   }
-  .contact_icon {
-    display: none;
+  #icons {
+    color: #ced7d8;
+    margin-top: 500px;
   }
 }
 
@@ -179,8 +182,8 @@ p {
   p {
     font-size: 30px;
   }
-  .contact_icon {
-    display: none;
+  #icons {
+    color: #ced7d8;
   }
 }
 
@@ -195,8 +198,8 @@ p {
   p {
     font-size: 30px;
   }
-  .contact_icon {
-    display: none;
+  #icons {
+    color: #ced7d8;
   }
 }
 
@@ -211,8 +214,8 @@ p {
   p {
     font-size: 35px;
   }
-  .contact_icon {
-    display: none;
+  #icons {
+    color: #ced7d8;
   }
 }
 
