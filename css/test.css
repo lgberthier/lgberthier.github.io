@@ -88,6 +88,14 @@ p {
   width: 1000px;
 }
 
+.backup {
+  display: none;
+}
+
+.backup_p {
+  display: none;
+}
+
 ion-icon {
   list-style-type: none;
   text-decoration: none;
@@ -116,10 +124,20 @@ ion-icon:hover {
     background-size: cover;
   }
   h1 {
-    font-size: 20px;
+    display: none;
   }
   p {
-    font-size: 17px;
+    display: none;
+  }
+  .backup {
+    display: block;
+    font-size: 20px;
+    color: #6b6b6b;
+  }
+  .backup_p {
+    display: block;
+    font-size: 20px;
+    color: #ec7054;
   }
   ion-icon {
     font-size: 18px;

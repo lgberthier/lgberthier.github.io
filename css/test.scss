@@ -82,6 +82,14 @@ border-radius: 10px;}
     width: 1000px;
   }
 
+  .backup {
+    display: none;
+  }
+
+  .backup_p {
+    display: none;
+  }
+
   ion-icon {
     list-style-type: none;
     text-decoration: none;
@@ -109,10 +117,20 @@ border-radius: 10px;}
   }
 
   h1 {
-    font-size: 20px;
+    display: none;
   }
   p {
-    font-size: 17px;
+    display: none;
+  }
+  .backup {
+    display: block;
+    font-size: 20px;
+    color: $color4;
+  }
+  .backup_p {
+    display: block;
+    font-size: 20px;
+    color: $color3;
   }
   ion-icon {
     font-size: 18px;
