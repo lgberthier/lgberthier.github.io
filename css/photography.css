@@ -5,6 +5,7 @@ body {
 #border {
   border-style: ridge;
   border-color: #316879;
+  border-radius: 15px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -12,11 +13,13 @@ body {
 
 img {
   width: 250px;
+  border-radius: 15px;
 }
 
 h1 {
   text-align: center;
   font-size: 30px;
+  padding-top: 10px;
   color: #ec7054;
   font-family: "Georgia", Times, serif;
 }
@@ -28,6 +31,7 @@ h1 {
 #p2 {
   text-align: left;
   font-size: 25px;
+  padding-left: 10px;
   color: #ec7054;
   font-family: "Arial", Helvetica, sans-serif;
 }
@@ -35,6 +39,7 @@ h1 {
 #p3 {
   text-align: right;
   font-size: 25px;
+  padding-right: 10px;
   color: #ec7054;
   font-family: "Arial", Helvetica, sans-serif;
 }
